@@ -5,5 +5,4 @@ develop:
 	npx parcel src/index.html
 
 production:
-	rm -rf ./dist/*
-	npx parcel build src/index.html
+	npx parcel build src/index.html --out-dir docs
