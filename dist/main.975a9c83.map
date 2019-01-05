@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["window","onload","require","Elm","Main","init"],"mappings":";;;AACAA,OAAOC,OAAS,WACAC,QAAQ,cAAfC,IACSC,KAAKC","file":"main.975a9c83.map","sourceRoot":"../src","sourcesContent":["\nwindow.onload = () => {\n  const {Elm} = require('./Main.elm')\n  const App = Elm.Main.init()\n}\n"]}
